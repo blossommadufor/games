@@ -1,0 +1,209 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    background-color: rgb(56, 56, 56);
+
+}
+
+#nav-bar{
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid grey;
+    color: white;
+    width: 90vw;
+    margin: auto;
+}
+
+#nav-bar a{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+}
+
+#nav-bar a:hover{
+    color: white;
+}
+
+.choices{
+    /* background-color: plum; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.preview{
+    /* border: 2px solid  red; */
+    width: 330px;
+    height: 280px;
+}
+
+.preview h2{
+    text-align: center;
+    font-size: 22px;
+    background-color: orange;
+    margin: 0px;
+    padding-top: 5px;
+}
+
+.preview h3{
+    text-align: center;
+    font-size: 14px;
+    background-color: orangered;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.play-button button{
+    width: 330px;
+    height: 40px;
+    background-color: grey;
+    border: 0px;
+}
+
+.box1{
+    width: 350px;
+    height: 350px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.box2{
+    width: 350px;
+    height: 350px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.box3{
+    width: 350px;
+    height: 350px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.box4{
+    width: 350px;
+    height: 350px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.box5{
+    width: 350px;
+    height: 350px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box1 h2{
+    background-color: #FCFCFC;
+}
+.box1 h3{
+    background-color: #FCFCFC;
+}
+
+.box2 h2{
+    background-color: #CFEEFF;
+}
+
+.box2 h3{
+    background-color: #CFEEFF;
+}
+
+.box3 h2{
+    background-color: #42BFC7;
+}
+
+.box3 h3{
+    background-color: #42BFC7;
+}
+
+.box4 h2{
+    background-color: #EEEEEE;
+}
+
+.box4 h3{
+    background-color: #EEEEEE;
+}
+
+.box5 h2{
+    background-color: #5593CC;
+}
+
+.box5 h3{
+    background-color: #5593CC;
+}
+
+.box1 .preview-img{
+    background-image: url(images/rps.jpg);
+    width: 330px;
+    height: 200px;
+    object-fit: contain;
+    background-position: center;
+    background-size: contain;
+}
+
+.box2 .preview-img{
+    background-image: url(images/wam.jpg);
+    width: 330px;
+    height: 200px;
+    object-fit: contain;
+    background-position: center;
+    background-size: contain;
+}
+
+.box3 .preview-img{
+    background-image: url(images/mg.jpg);
+    width: 330px;
+    height: 200px;
+    object-fit: contain;
+    background-position: center;
+    background-size: contain;
+}
+
+.box4 .preview-img{
+    background-image: url(images/si.jpg);
+    width: 330px;
+    height: 200px;
+    object-fit: contain;
+    background-position: center;
+    background-size: contain;
+}
+
+.box5 .preview-img{
+    background-image: url(images/cf.jpg);
+    width: 330px;
+    height: 200px;
+    object-fit: contain;
+    background-position: center;
+    background-size: contain;
+}
+
+#game-option{
+    background-color: rgb(56, 56, 56);
+    width: 90vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: 30px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
