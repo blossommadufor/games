@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightsteelblue;
+    font-family: serif;
+
+}
+
+.score-board{
+    background-color: #F8B1B1;
+    width: 400px;
+    height: 400px;
+    border-radius: 25px;
+    margin-top: 70px;
+    text-align: center;
+    border: 1px solid grey ;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h2{
+    font-family: serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.grid{
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    height: 200px;
+    width: 200px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    /* margin: 1px; */
+}
+
+.square:nth-child(1){
+    background-color: #F7BBA3;
+}
+
+.square:nth-child(2){
+    background-color: #FADAC8;
+}
+
+.square:nth-child(3){
+    background-color: #F7EBE3;
+}
+
+.square:nth-child(4){
+    background-color: #F8B1B1;
+}
+
+.square:nth-child(5){
+    background-color: pink;
+}
+.square:nth-child(6){
+    background-color: #F8B1B1;
+}
+.square:nth-child(7){
+    background-color: #F7EBE3;
+}
+.square:nth-child(8){
+    background-color: #FADAC8;
+}
+
+.square:nth-child(9){
+    background-color: #F7BBA3;
+}
+
+.mole{
+    background-image: url('mole2.jpg');
+    background-size: cover;
+}
