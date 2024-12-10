@@ -57,6 +57,7 @@ body{
     height: 84vh;
     display: flex;
     flex-direction: row;
+    /* padding-bottom: 30px; */
 }
 
 .main-text{
@@ -97,6 +98,28 @@ body{
 .main-display-img img{
     padding-left: 100px;
 }
+
+.title{
+    /* background-color: #fff; */
+    color: #D8EEF9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    padding-top: 40px;
+}
+
+.title h2{
+    font-size: 55px;
+    font-weight: 500;
+    margin: 0px;
+    border: 4px dotted #AB4CCD;
+    border-radius: 10px;
+    padding: 10px 20px;
+    /* background-color: #fff; */
+}
+
 
 .preview{
     background-color: #AB4CCD;
