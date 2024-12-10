@@ -6,7 +6,7 @@
     }
 
     .logo{
-        /* background-color: red; */
+        background-color: red;
         width: 350px;
         height: 100%;
         display: flex;
