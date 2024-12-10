@@ -26,10 +26,10 @@
     
     #nav-bar{
         background-color: transparent;
-        /* background-color: #fff; */
+        background-color: #fff;
         justify-content: center;
         align-items: center;
-        width: 90vw;
+        width: 400px;
         height: 13vh;
         margin-top: 2vh;
         padding-bottom: 4vh;
