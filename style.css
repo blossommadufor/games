@@ -80,6 +80,10 @@ body{
     color: #2E0F31;
 }
 
+.display-img{
+    display: none;
+}
+
 .main-display-img{
     width: 60%;
     height: 100%;
