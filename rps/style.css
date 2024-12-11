@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 body{
     align-items: center;
     justify-content: space-around;
     background-color: #FDCBD6;
     color: rgb(56, 56, 56);
     background-color: whitesmoke;
+    font-family: "Outfit", sans-serif;
 }
 
 .options{
@@ -73,7 +76,6 @@ span{
 }
 
 .pick{
-    /* background-color: red; */
     height: 350px;
     display: flex;
 }
@@ -88,7 +90,6 @@ span{
     height: 100px;
     border-radius: 30px;
     margin: auto;
-    /* display: none; */
 }
 
 .button h3{
@@ -111,12 +112,13 @@ button{
     border-radius: 8px;
     align-self: center;
     font-size: 20px;
-    font-family: serif;
+    font-family: "Outfit", sans-serif;
 }
 
 
 button:hover{
     background-color: rgb(56, 56, 56);
     color: whitesmoke;
+    background-color: hotpink;
 }
 

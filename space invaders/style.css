@@ -1,26 +1,41 @@
+body{
+    background-color: #15123A;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .grid{
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+    /* border: 1px solid black; */
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
-    /* background-color: red; */
+    /* margin: auto; */
+    background-color: red;
+    background-image: url(./space4.jpg) ;
+    opacity: 0.6;
+    object-fit: contain;
+    background-position: center;
+    background-size: contain;
+    z-index: 1;
 }
 
 .grid div{
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
 }
 
 .invader{
-    background-color: purple;
-    border-radius: 10px;
+    background-color: rgb(29, 0, 26);
+    border-radius: 50px;
+    z-index: 5;
 }
 
 .shooter{
     background-color: cornflowerblue;
-    /* border-radius: 10px; */
 }
 
 .laser{
@@ -29,4 +44,16 @@
 
 .boom{
     background-color: red;
+}
+
+.results{
+    background-color: #9A599D;
+    width: 15%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-top: 5px;
 }

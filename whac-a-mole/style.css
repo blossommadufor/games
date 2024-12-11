@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: lightsteelblue;
-    font-family: serif;
-
+    background-color: #D8EEF9 ;
+    font-family: "Outfit", sans-serif;
 }
 
 .score-board{
-    background-color: #F8B1B1;
+    background-image: url(./wood.jpg);
+    color: #D8EEF9 ;
     width: 400px;
     height: 400px;
     border-radius: 25px;
@@ -25,16 +28,18 @@ h1{
 }
 
 h2{
-    font-family: serif;
+    font-family: "Outfit", sans-serif;
     font-weight: 400;
     font-size: 30px;
 }
 
 .grid{
-    width: 606px;
-    height: 606px;
+    width: 620px;
+    height: 620px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .square{
@@ -42,40 +47,45 @@ h2{
     width: 200px;
     border: 1px solid grey;
     border-radius: 5px;
-    /* margin: 1px; */
 }
 
 .square:nth-child(1){
-    background-color: #F7BBA3;
+    background-color: #349fdd;
+
 }
 
 .square:nth-child(2){
-    background-color: #FADAC8;
+    background-color: #2ef1ee;
 }
 
 .square:nth-child(3){
-    background-color: #F7EBE3;
+    background-color: #1f9997;
 }
 
 .square:nth-child(4){
-    background-color: #F8B1B1;
+    background-color: #33C4C8;
+
 }
 
 .square:nth-child(5){
-    background-color: pink;
+    background-color: #1ab6d1;
+
 }
 .square:nth-child(6){
-    background-color: #F8B1B1;
+    background-color: #349fdd;
+
+
 }
 .square:nth-child(7){
-    background-color: #F7EBE3;
+    background-color: #2ef1ee;
 }
 .square:nth-child(8){
-    background-color: #FADAC8;
+    background-color: #34c9dd;
+
 }
 
 .square:nth-child(9){
-    background-color: #F7BBA3;
+    background-color: #2ef1ee;
 }
 
 .mole{

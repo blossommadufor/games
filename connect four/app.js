@@ -93,7 +93,7 @@ function checkBoard(){
         result.innerHTML = 'player one wins'
     }
 
-    // check those squaresto see if they all have player 1
+    // check those squares to see if they all have player 2
     if(
         square1.classList.contains('player-two') && 
         square2.classList.contains('player-two') &&
